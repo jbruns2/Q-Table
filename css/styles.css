@@ -1,0 +1,101 @@
+
+.tg  {
+  border-collapse:collapse;
+  border-color:#727475;
+  table-layout: auto;
+  width: 100%;
+}
+.tg td{
+  border-style:solid;
+  border-width:1px;
+  font-family:Mulish, sans-serif;
+  font-size:14px;
+  overflow:hidden;
+  padding:10px 5px;
+  word-break:normal;
+}
+.tg th{
+  border-style:none;
+  border-width:1px;
+  font-family:Mulish, sans-serif;
+  font-size:14px; 
+  font-weight:normal;
+  overflow:hidden;
+  padding:10px 5px;
+  word-break:normal;
+}
+.tg .tg-0lax{
+  text-align:center;
+  vertical-align:top
+}
+.tg .tg-0pky{
+  text-align:left;
+  vertical-align:top; 
+  width:100px; 
+}
+.tg .tg-1pky{
+  border-style:none;
+  text-align:left;
+  vertical-align:top
+}
+.label1 {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  background-color: #f3f3f3;
+  height: 150px;
+  vertical-align: middle;
+  border-color: #e2e2e2;
+  color: #3F4B4F;
+  text-align: center;
+  width: 2%;
+}
+.thblank {
+  border-style: none;
+  
+}
+
+.thnotblank {
+  background-color: #8BB9C7;
+  color: #3F4B4F;
+}
+
+.firstcol {
+  background-color: #62757b;
+  color: #f2f2f2;
+  width: 20%;
+}
+
+.dates {
+  text-align: center;
+}
+.floater {
+  margin: 0px;
+}
+
+.this {
+  display: block;
+  background-color: #fdb823;
+  width: 50%;
+  height: 10px;
+  float: ;
+  margin-top: 10px;
+  margin-left: 25%;
+  background: linear-gradient(
+  to left,
+  #8BB9C7 30%,
+  #496F7A 
+  );
+}
+
+.next {
+  display: block;
+  background-color: #fdb823;
+  width: 50%;
+  height: 10px;
+  margin-top: 10px;
+}
+
+.check {
+  padding-left: 50px;
+}
+
