@@ -31,7 +31,7 @@ body {
 .tg .tg-0lax{
   text-align:center;
   vertical-align:top;
-  background-color: #DAE9EA;
+  background-color: #EDF3FE;
 }
 .tg .tg-0pky{
   text-align:left;
@@ -104,5 +104,9 @@ body {
 
 .check {
   padding-left: 50px;
+}
+
+.header {
+  font-weight: bold;
 }
 
