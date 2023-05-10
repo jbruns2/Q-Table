@@ -154,7 +154,7 @@ body {
 }
 /* Styling for the bot description section */
 .bpw-botinfo-description {
-    margin-top: 0.4em; /* Add some margin at the top */
+    margin-top: 1em; /* Add some margin at the top */
     margin-bottom: 1em; /* Add some margin at the bottom */
 }
 /* Styling for the bot summary header */
@@ -223,7 +223,7 @@ body {
 
   /* Adds a 20 pixel border radius to the corners of the element */
 
-  border-radius: 20px;
+  border-radius: 200px;
 
   /* Sets the height of each line of text within the element to 24 pixels */
 
