@@ -122,22 +122,7 @@
           </tr>
         </tbody>
         </table>
-
-  <div id="saveIcon" onclick="savePage()">
-    <i class="fa-regular fa-bookmark"></i>
-  </div>
-  <div id="libraryIcon" onclick="openLibrary()">
-    <i class="fa-regular fa-clipboard"></i>
-    <span id="notificationBadge">0</span>
-  </div>
-
-<div id="empty">
-  <i class="fa-regular fa-trash-can"></i>
-</div>
-        <ul id="library">
-        </ul>
         
-    
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -157,51 +142,7 @@
       "enableConversationDeletion": true,
       "showPoweredBy": true
   });
-//start of bookmark script
-    let savedPages = [];
 
-function savePage() {
-  const currentPage = window.location.href;
-  savedPages.push(currentPage);
-  updateNotificationBadge();
-  localStorage.setItem('savedPages', JSON.stringify(savedPages));
-}
-
-function openLibrary() {
-  window.location.href = 'https://jbruns2.github.io/library/';
-}
-
-function clearLibrary() {
-  localStorage.clear();
-}
-
-function updateNotificationBadge() {
-  const notificationBadge = document.getElementById('notificationBadge');
-  notificationBadge.innerText = savedPages.length.toString();
-}
-
-window.addEventListener('load', () => {
-  savedPages = JSON.parse(localStorage.getItem('savedPages')) || [];
-  updateNotificationBadge();
-});
-
-document.getElementById("empty").addEventListener("click", clearLibrary);
-
-document.getElementById("empty").addEventListener("click", updateNotificationBadge);
-
-document.getElementById("empty").addEventListener('click', () => {
-  savedPages = JSON.parse(localStorage.getItem('savedPages')) || [];
-  updateNotificationBadge();
-});
-
-const list = document.querySelector('#library');
-
-savedPages.forEach(link => {
-  let item = document.createElement('li');
-  item.textContent = link;
-  list.appendChild(item)
-})
-    //end bookmarking
 </script>
         
         <script src="" async defer></script>
